@@ -1,0 +1,21 @@
+name: Maintenance
+description: Request maintenance work
+labels: ["maintenance"]
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      placeholder: What maintenance work is needed?
+    validations:
+      required: true
+  - type: textarea
+    id: scope
+    attributes:
+      label: Scope
+      placeholder: What areas are affected?
+  - type: textarea
+    id: notes
+    attributes:
+      label: Additional notes
+      placeholder: Any other details?
